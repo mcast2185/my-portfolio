@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+
+// .mouse {
+//   position: relative;
+//   --pageX: 20px;
+//   --pageY: 20px;
+//   clip-path: polygon(0, 20, calc(var(--pageX), 0,0,calc(var(--pageY))));
+// }

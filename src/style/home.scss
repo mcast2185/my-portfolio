@@ -1,0 +1,127 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  // background-image: url("../../static/assets/images/AI.jpg") ;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+
+  .home-body {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+
+    .left-content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      color: #fff;
+      padding: 20px;
+      // width: vw;
+
+
+      .left-content-heading {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        height: 310px;
+        // width: 580px;
+
+
+
+        h1 {
+          color: transparent;
+          font-family: 'Montserrat Subrayada';
+          line-height: 6rem;
+          position: absolute;
+          letter-spacing: -6px;
+          top: 50%;
+          left: 50%;
+          font-size: 16.5vh;
+          transform: translate(-50%, -50%) skewY(-6deg);
+          text-shadow: 
+          
+          1px -1px rgba(255, 255, 255, .4),
+          0px -1px rgba(255, 255, 255, .4),
+          -1px -1px rgba(255, 255, 255, .4),
+
+          0px -2px #fff,
+          -1px -2px #fff,
+          -2px -2px #fff,
+
+          -1px -3px #ddd,
+          -2px -3px #ddd,
+          -3px -3px #ddd,
+
+          -2px -4px #fff,
+          -3px -4px #fff,
+          -4px -4px #fff,
+
+          -3px -5px #fff,
+          -4px -5px #fff,
+          -5px -5px #fff;
+
+          &:before {
+            content: "Mario Castro";
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: skewX(30deg);
+            transform-origin: bottom left;
+            z-index: -1;
+            color: transparent;
+            text-shadow: 
+            12px 0px 10px rgba(107, 106, 106, 0.25),
+            12px 0px 15px rgba(107, 106, 106, .2),
+            12px 0px 25px rgba(107, 106, 106, .15),
+            12px 0px 35px rgba(107, 106, 106, .1),
+
+          }
+
+          .red-text {
+            color: #f1412a;
+            text-shadow: none;
+            font-family: 'Hind Vadodara', sans-serif;
+          }
+
+          .sub-text {
+            letter-spacing: 0px;
+            color: #fff;
+            text-shadow: none;
+            display: flex;
+            justify-content: start;
+            margin-right: 2px;
+            line-height: 28px;
+            font-size: 19px;
+            font-family: 'Libre Barcode 39 Text';
+          }
+        }
+      }
+
+
+      .left-content-sub-text {
+        display: flex;
+        justify-content: baseline;
+      }
+    }
+
+    .center-content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: 60vw;
+
+      h3 {
+        font-family: 'Poiret One', cursive;
+        margin-bottom: 13vh;
+        color: #fff;
+      }
+    }
+
+    // .right-content {
+
+    // }
+  }
+}

@@ -1,0 +1,132 @@
+.projects-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../static/assets/images/ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+
+.projects-body {
+  height: 80vh;
+  width: 85vw;
+  background-color: rgba(91, 91, 91, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // contain: layout;
+
+  
+
+  h2 {
+    font-size: 12vh;
+    color: #fff;
+    position: absolute;
+    top: 18vh;
+    left: 37vw;
+    font-family: 'Kufam', sans-serif;
+    z-index: 1;
+    
+  }
+
+  // .projects-image {
+  //   height: 65vh;
+  //   display: flex;
+  //   align-content: center;
+  //   padding: 1.5vw;
+
+  // }
+
+  .image-pier {
+    position: absolute;
+    padding: 2.5vw;
+    height: 75vh;
+    width: 80vw;
+    opacity: .6;
+    filter: brightness(40%);
+  }
+
+  .projects-link-section {
+
+
+    z-index: 1;
+    width: 78vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    margin-top: 40vh;
+    padding: 3.5vw;
+
+
+    .project-link-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 18vh;
+        width: 15vw;
+        border-radius: 5px;
+        opacity: .6;
+        transition: transform .15s ease-in-out;
+
+        &:hover {
+          border: .5px solid #fff;
+          opacity: .9;
+          transform: scale(1.1);
+        }
+      }
+      
+      h3 {
+        color: #fff;
+        font-family: 'Poiret One', cursive;
+        font-size: 20px;
+        font-weight: 100;
+        text-decoration: none;
+        text-transform: none;
+        padding: 8px;
+  
+        a {
+          cursor: pointer;
+          transition: 1s ease-in-out;
+          text-decoration: none;
+          text-transform: none;
+  
+          &:visited {
+            color: #fff;
+          }
+  
+          &:hover {
+            transition: 1s ease-in-out;
+            border-bottom: 1px solid #fff;
+          }
+        }
+      }
+
+      .git {
+        color: #fff;
+        padding: 0;
+
+        cursor: pointer;
+        transition: 1s ease-in-out;
+        text-decoration: none;
+        text-transform: none;
+
+        &:visited {
+          color: #fff;
+        }
+
+        &:hover {
+          transition: 1s ease-in-out;
+          border-bottom: 1px solid #fff;
+        }
+      }
+    }
+  }
+}

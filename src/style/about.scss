@@ -1,0 +1,225 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(163, 162, 162);
+
+
+  .about-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .about-left-container {
+      width: 60vw;
+      height: 57vh;
+      border: .5px solid #fff;
+
+      img {
+        height: 57vh;
+        width: 60vw;
+      }
+    }
+
+    .about-right-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 40vw;
+      height: 57vh;
+      border: .5px solid #fff;
+
+      h1 {
+        font-size: 18vh;
+        font-family: 'Kufam', sans-serif;
+        letter-spacing: -8px;
+      }
+    }
+  }
+
+  .about-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-footer-content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: rgb(105, 105, 105);
+      height: 43vh;
+      width: 100vw;
+      transition: 1.5s ease-in-out;
+      line-height: 25px;
+
+      .about-footer-grouping {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 32vw;
+        margin-left: 2vw;
+        margin-bottom: 15vh;
+        border-radius: 5px;
+
+
+        h2 {
+          padding: 10px;
+          font-family: 'Kufam', sans-serif;
+          font-size: 25px;
+        }
+
+
+        p {
+          padding: 10px;
+          width: 32vw;
+          color: #fff;
+          font-family: 'Poiret One', cursive;
+          transition: 1.5s ease-in-out;
+
+          
+          &:hover {
+            font-size: 16.5px;
+            font-weight: 900;
+            transition: 1s ease-in-out;
+            box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.3);
+          }
+        }
+        
+      }
+
+      .about-footer-grouping-two {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 32vw;
+        margin-left: 2vw;
+        margin-top: 15vh;
+        border-radius: 5px;
+
+        h2 {
+          padding: 10px;
+          font-family: 'Kufam', sans-serif;
+          font-size: 25px;
+        }
+
+        p {
+          padding: 5px;
+          width: 32vw;
+          color: #fff;
+          font-family: 'Poiret One', cursive;
+          transition: 1s ease-in-out;
+
+          &:hover {
+            font-size: 16.5px;
+            font-weight: 900;
+            transition: 1s ease-in-out;
+            box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.3);
+          }
+        }
+      }
+
+      .about-footer-grouping-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        contain: content;
+
+  
+
+        .navigation-item {
+          display: block;
+          user-select: none;
+
+        }
+
+        a {
+          font-family: "Cosi Azure";
+          font-size: 150px;
+          text-decoration: none;
+          color: rgba(255, 255, 255, 0.3);
+          cursor: none;
+        }
+
+        span {
+          position: relative;
+          display: block;
+        }
+
+        .navigation-item span:before {
+          width: 0;
+          color: #ffffff;
+          overflow: hidden;
+          position: absolute;
+          content: attr(data-text);
+          transition: all 1s cubic-bezier(0.84, 0, 0.08, 0.99);
+        }
+
+        .navigation-item span:hover:before {
+          width: 99%;
+        }
+
+        .project-preview-wrapper {
+          width: 99%;
+          height: 100vh;
+          position: fixed;
+          display: flex;
+          justify-content: center;
+        }
+
+        .project-preview {
+          position: fixed;
+          top: 5%;
+          right: 3%;
+          width: 0px;
+          height: 350px;
+          background: url("../static/assets/images/headshot.jpg") no-repeat 60% 70%;
+          opacity: .6;
+          background-size:contain;
+          overflow: hidden;
+        }
+
+        @media (max-width: 800px) {
+          .progressbar,
+          .project-preview-wrapper {
+            display: none;
+          }
+
+          a {
+            font-size: 24px;
+          }
+        }
+        // margin-right: 10px;
+        // margin-bottom: 21vh;
+
+        // h2 {
+        //   padding: 10px;
+        //   font-family: 'Kufam', sans-serif;
+        //   font-size: 25px;
+        // }
+
+        // .projects {
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+        //   padding: 5px;
+        //   width: 8vw;
+        //   color: #fff;
+        //   font-family: 'Poiret One', cursive;
+        //   transition: 1s ease-in-out;
+        //   font-size: 20px;
+        //   border: 1px solid #fff;
+          
+
+        //   &:hover {
+        //     font-size: 21px;
+        //     font-weight: 900;
+        //     transition: 1s ease-in-out;
+        //     background-color: rgb(87, 87, 87);
+        //     box-shadow: 0px 10px 8px -8px rgba(0,0,0,0.3);
+        //   }
+        // }
+      }
+    }
+  }
+}
