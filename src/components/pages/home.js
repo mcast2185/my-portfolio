@@ -25,7 +25,7 @@ const Home = () => {
               <h1>
                 <span className='red-text'>/ </span>Mario <br/>Castro<span className='red-text'>_</span> 
                 <p className='sub-text'>
-                  JavaScript React HTML5 CSS SCSS Python Express MongoDB MySQL <br/> Full-stack Developer<br/> 
+                  JavaScript React HTML5 NextJS Typescript CSS SCSS Python Express MongoDB MySQL<br/> Full-stack Developer<br/> 
                 </p>
               </h1>
             </div>

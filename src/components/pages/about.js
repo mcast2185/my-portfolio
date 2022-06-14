@@ -83,7 +83,7 @@ const About = () => {
               </div>
               <li className="navigation-item">
                 <a className="navigation-link navigation-link-1" href="#">
-                  <span data-text="?">?</span>
+                  <span data-text="More...">More...</span>
                 </a>
               </li>
               <div className="project-overlay"></div>

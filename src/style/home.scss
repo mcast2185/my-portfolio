@@ -3,8 +3,6 @@
   height: 100vh;
   width: 100vw;
   background-color: black;
-  // background-image: url("../../static/assets/images/AI.jpg") ;
-  background-color: black;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
@@ -34,12 +32,12 @@
         h1 {
           color: transparent;
           font-family: 'Montserrat Subrayada';
-          line-height: 6rem;
+          line-height: 6.5rem;
           position: absolute;
           letter-spacing: -6px;
           top: 50%;
           left: 50%;
-          font-size: 16.5vh;
+          font-size: 158px;
           transform: translate(-50%, -50%) skewY(-6deg);
           text-shadow: 
           
@@ -94,7 +92,7 @@
             justify-content: start;
             margin-right: 2px;
             line-height: 28px;
-            font-size: 19px;
+            font-size: 17px;
             font-family: 'Libre Barcode 39 Text';
           }
         }
