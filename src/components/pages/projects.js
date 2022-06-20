@@ -6,11 +6,14 @@ import GPR from "../../static/assets/images/thumbnailGpr.png";
 import Capstone from "../../static/assets/images/thumbnailCap.png";
 import Chat from "../../static/assets/images/thumbnailChat.png";
 import X from "../../static/assets/images/notWorking.png";
+import next from "../../static/assets/images/dietyimage.png";
+
 
 import "aos/dist/aos.css";
 
 
 const Projects = () => {
+  
   return (
     <React.StrictMode>
       <div className='projects-container /projects'>
@@ -31,9 +34,10 @@ const Projects = () => {
               <a className='git' href="https://github.com/mcast2185/CapStone-Project/tree/main">/Git</a>
             </div>
             <div className='project-link-wrapper'>
-              <img className='image-x' src={X}/>
-              <h3><a href="/">Bottega website</a></h3>
+              <img className='image-x' src={next}/>
+              <h3><a href="https://deity.vercel.app/">NextJS Blog site</a></h3>
               <br/>
+              <a className='git' href="https://github.com/mcast2185/nextjs-blog">/Git</a>
             </div>
             <div className='project-link-wrapper'>
               <img className='image-chat' src={Chat}/>

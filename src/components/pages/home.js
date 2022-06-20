@@ -31,7 +31,7 @@ const Home = () => {
             </div>
           </div>
           <div className='center-content'>
-            <h3>- Web-Developer, evolving <ins>OUR</ins> online experience -</h3>
+            <h3>- Web-Developer, evolving <ins className='inner-text'>OUR</ins> online experience -</h3>
           </div>
           <div className='right-content'>
           </div>
